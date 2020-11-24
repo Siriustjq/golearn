@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_3 控制台输入，并输出重复次数">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_3 新增文件输入，同样输出重复次数，文件为空则标准输入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +44,30 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build golearn/src (1)">
+  <component name="RunManager" selected="Go Build.go build golearn/src (3)">
     <configuration name="go build golearn/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/go1_3file.go" />
+      <package value="golearn/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/src (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go1_4gif.go" />
+      <package value="golearn/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/src (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/test.go" />
       <package value="golearn/src" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -65,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golearn/src (3)" />
+        <item itemvalue="Go Build.go build golearn/src (2)" />
         <item itemvalue="Go Build.go build golearn/src (1)" />
         <item itemvalue="Go Build.go build golearn/src" />
       </list>
@@ -84,31 +104,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="# 1_3 控制台输入，并输出重复次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 1_3 控制台输入，并输出重复次数" />
+    <MESSAGE value="# 1_3 新增文件输入，同样输出重复次数，文件为空则标准输入" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 1_3 新增文件输入，同样输出重复次数，文件为空则标准输入" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1606047053926">
+    <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606047053926" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1606047053925">
+    <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1606209205905" />
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1606216591649">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606047053925" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1606047053924">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606216591649" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1606216591648">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606047053924" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1606047053925">
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606216591648" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1606216591647">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606047053925" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606023980695">
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606216591647" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1606216591649">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606023980695" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606216591649" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606047991532">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606047991532" />
   </component>
 </project>
