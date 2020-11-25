@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_4 生成gif动图">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,10 @@
     <MESSAGE value="# 1_3 控制台输入，并输出重复次数" />
     <MESSAGE value="# 1_3 新增文件输入，同样输出重复次数，文件为空则标准输入" />
     <MESSAGE value="# 1_4 生成gif动图" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 1_4 生成gif动图" />
+    <MESSAGE value="# 1_5 向指定url发出请求并获取内容" />
+    <MESSAGE value="# 1_5练习1.7 将内容读出到os.Stdout，从而可以支持多种输出，通过&gt;baidu.txt写到txt中" />
+    <MESSAGE value="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
@@ -133,9 +136,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606216591649" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606216798104">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606221188719">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606216798104" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606221188719" />
   </component>
 </project>
