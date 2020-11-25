@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_6并发获取多个url 主要是熟悉goruntine以及chan通道">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build golearn/src (3)">
+  <component name="RunManager" selected="Go Build.go build golearn/src (4)">
     <configuration name="go build golearn/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,6 +72,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build golearn/src (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go_goroutine.go" />
+      <package value="golearn/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golearn/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golearn/src (4)" />
         <item itemvalue="Go Build.go build golearn/src (3)" />
         <item itemvalue="Go Build.go build golearn/src (2)" />
         <item itemvalue="Go Build.go build golearn/src (1)" />
@@ -113,32 +123,33 @@
     <MESSAGE value="# 1_5 向指定url发出请求并获取内容" />
     <MESSAGE value="# 1_5练习1.7 将内容读出到os.Stdout，从而可以支持多种输出，通过&gt;baidu.txt写到txt中" />
     <MESSAGE value="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url" />
+    <MESSAGE value="# 1_6并发获取多个url 主要是熟悉goruntine以及chan通道" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 1_6并发获取多个url 主要是熟悉goruntine以及chan通道" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1606209205905" />
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1606216591649">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1606308775574">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606216591649" />
-    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1606216591648">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606308775574" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1606308775573">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606216591648" />
-    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1606216591647">
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606308775573" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1606308775572">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606216591647" />
-    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1606216591649">
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606308775572" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1606308775574">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606216591649" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606221188719">
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606308775574" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606307171342">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606221188719" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606307171342" />
   </component>
 </project>
