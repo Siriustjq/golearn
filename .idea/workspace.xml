@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_7创建具备计数器功能的服务器，可以统计访问次数">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 1_7创建可以显示gif动画的服务器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +126,8 @@
     <MESSAGE value="# 1_6并发获取多个url 主要是熟悉goruntine以及chan通道" />
     <MESSAGE value="# 1_7创建一个最简单的服务器demo，实现返回请求的URL.Path" />
     <MESSAGE value="# 1_7创建具备计数器功能的服务器，可以统计访问次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 1_7创建具备计数器功能的服务器，可以统计访问次数" />
+    <MESSAGE value="# 1_7创建可以显示gif动画的服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 1_7创建可以显示gif动画的服务器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
@@ -149,9 +150,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606308775574" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606469555804">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606471041348">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606469555804" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606471041348" />
   </component>
 </project>
