@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 2_6_2 init函数体验">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 3_1 关于数据类型rune的理解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +46,12 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Go Build.go build golearn/src">
-    <configuration name="go build golearn/src (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build golearn/src (1)">
+    <configuration name="go build golearn/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go1_4gif.go" />
+      <filePath value="$PROJECT_DIR$/src/go3_bit.go" />
       <package value="golearn/src" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golearn/src (1)" />
         <item itemvalue="Go Build.go build golearn/src" />
         <item itemvalue="Go Build.go build golearn/src (5)" />
         <item itemvalue="Go Build.go build golearn/src (4)" />
         <item itemvalue="Go Build.go build golearn/src (3)" />
-        <item itemvalue="Go Build.go build golearn/src (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -133,36 +133,37 @@
     <MESSAGE value="# 2_2 flag包的一些简单用法" />
     <MESSAGE value="# 2_6_2 test2.5二进制中1的个数" />
     <MESSAGE value="# 2_6_2 init函数体验" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 2_6_2 init函数体验" />
+    <MESSAGE value="# 3_1 关于数据类型rune的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 3_1 关于数据类型rune的理解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1606209205905" />
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1607243870267">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1607662244827">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607243870267" />
-    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1607243870265">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607662244827" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1607662244825">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607243870265" />
-    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1607243870264">
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607662244825" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1607662244823">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607243870264" />
-    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1607243870266">
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607662244823" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1607662244826">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607243870266" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607662244826" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607153595662">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607153595662" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607154021636">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607244989469">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607154021636" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607244989469" />
   </component>
 </project>
