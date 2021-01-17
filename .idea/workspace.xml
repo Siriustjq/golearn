@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 3_1 关于数据类型rune的理解">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 3_1 按位清除">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,36 +134,38 @@
     <MESSAGE value="# 2_6_2 test2.5二进制中1的个数" />
     <MESSAGE value="# 2_6_2 init函数体验" />
     <MESSAGE value="# 3_1 关于数据类型rune的理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 3_1 关于数据类型rune的理解" />
+    <MESSAGE value="# 3_1 按位清除，即将x按照y的每一位进行清除，y为1则x的对应位置置零，反之y为0则对应位置不变" />
+    <MESSAGE value="# 3_1 按位清除" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 3_1 按位清除" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1606209205905" />
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1607662244827">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1607773512907">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607662244827" />
-    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1607662244825">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607773512907" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1607773512906">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607662244825" />
-    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1607662244823">
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607773512906" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1607773512905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607662244823" />
-    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1607662244826">
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607773512905" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1607773512907">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607662244826" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607773512907" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607153595662">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607153595662" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607244989469">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607738472101">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607244989469" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607738472101" />
   </component>
 </project>
