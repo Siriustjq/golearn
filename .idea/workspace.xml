@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 8_3 多次并发的回声服务器与客户端">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# MIT6.824 Mutex以及共享变量实现多线程并发">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golearn/src (2)">
+  <component name="RunManager" selected="Go Build.go build golearn/src (3)">
     <configuration name="go build golearn/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -70,11 +70,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build golearn/src (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build golearn/src (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_goroutine.go" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/go6_1method.go" />
       <package value="golearn/src" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golearn/src (3)" />
         <item itemvalue="Go Build.go build golearn/src (2)" />
         <item itemvalue="Go Build.go build golearn/src (1)" />
         <item itemvalue="Go Build.go build golearn/src" />
         <item itemvalue="Go Build.go build golearn/src (5)" />
-        <item itemvalue="Go Build.go build golearn/src (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,13 +143,10 @@
     <MESSAGE value="# 3_1 按位清除" />
     <MESSAGE value="# 8_2 并发的时间服务器" />
     <MESSAGE value="# 8_3 多次并发的回声服务器与客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 8_3 多次并发的回声服务器与客户端" />
+    <MESSAGE value="# MIT6.824 Mutex以及共享变量实现多线程并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="# MIT6.824 Mutex以及共享变量实现多线程并发" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606209205905">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="362" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1606209205905" />
     <state width="1238" height="264" key="GridCell.Tab.0.bottom" timestamp="1613877603619">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
@@ -194,9 +191,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607153595662" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1610873958259">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="360" y="189" key="Vcs.Push.Dialog.v2" timestamp="1615168847161">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1610873958259" />
+    <state x="360" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1615168847161" />
   </component>
 </project>
