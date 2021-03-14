@@ -17,12 +17,26 @@ type path []point //任意类型均可以有方法，只要其不是指针类型
 
 func (p path) Distance() float64 {
 	sum := 0.0
-	for i, _ := range p {
+	for i := range p {
 		if i > 0 {
 			sum += p[i-1].Distance(p[i])
 		}
 	}
 	return sum
+}
+
+//实现整型链表的数据结构
+type IntList struct {
+	Value int
+	Tail  *IntList
+}
+
+// Sum返回列表中元素的总和
+func (list *IntList) Sum() int {
+	if list == nil {
+		return 0
+	}
+	return list.Value + list.Tail.Sum()
 }
 
 func main() {
