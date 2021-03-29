@@ -5,7 +5,6 @@ import "fmt"
 var tool1 map[int]int
 
 func main() {
-
 	tool1 = make(map[int]int)
 	tool1[2] = 3
 	tool1 = make(map[int]int)
