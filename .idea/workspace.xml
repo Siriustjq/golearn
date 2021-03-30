@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 最近的一些杂七杂八">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 最近的学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go3_14aboutMap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go3_14aboutMap.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,8 @@
     <MESSAGE value="# 8_3 多次并发的回声服务器与客户端" />
     <MESSAGE value="# MIT6.824 Mutex以及共享变量实现多线程并发" />
     <MESSAGE value="# 最近的一些杂七杂八" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 最近的一些杂七杂八" />
+    <MESSAGE value="# 最近的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 最近的学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616139135721">
@@ -193,10 +193,10 @@
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612099361921" />
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.746@0.23.1280.746" timestamp="1613877603621" />
-    <state x="360" y="189" key="Vcs.Push.Dialog.v2" timestamp="1615705184144">
+    <state x="360" y="189" key="Vcs.Push.Dialog.v2" timestamp="1616985007840">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615359826016" />
-    <state x="360" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1615705184144" />
+    <state x="360" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1616985007840" />
   </component>
 </project>
