@@ -24,11 +24,18 @@ func main() {
 	//多态的体现
 	var phone1 phone = nokia{}
 	var phone2 phone = apple{}
-	//判断该接口到底是哪种类型的
+	//判断该结构体到底是哪种类型的，虽然都是实现了phone接口，但是类型并不一致。
 	if value, ok := phone1.(apple); !ok {
 		value.call()
 	}
 	if value, ok := phone2.(apple); ok {
 		value.call()
+	}
+	// switch还将会用来判断一个接口变量的类型
+	switch value := phone1.(type) {
+	case apple:
+		fmt.Println("this is a apple !!!!!", value)
+	case nokia:
+		fmt.Println("this is a nokia !!!!!", value)
 	}
 }

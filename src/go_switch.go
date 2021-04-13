@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func randomRes() bool {
 	return false
@@ -21,4 +23,12 @@ func main() {
 	case false:
 		fmt.Println("the result is false")
 	}
+
+	//var tjq interface{}
+	//switch c := tjq.(type) {
+	//case bool:
+	//	fmt.Println("bool type")
+	//case types.Nil:
+	//
+	//}
 }
