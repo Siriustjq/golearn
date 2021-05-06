@@ -30,6 +30,8 @@ func main() {
 		go handleConn1(conn)
 	}
 }
+
+//广播信息
 func broadcaster() {
 	clients := make(map[client]bool) //存储每个client的登录状态
 	for {

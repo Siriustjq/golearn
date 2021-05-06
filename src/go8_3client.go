@@ -15,6 +15,7 @@ func main() {
 		log.Print("Connection has been refused ! ")
 	}
 	defer conn.Close()
+	//并发接受聊天信息
 	go messcopy(os.Stdout, conn)
 	messcopy(conn, os.Stdin)
 }
