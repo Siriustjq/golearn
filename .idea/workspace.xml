@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 构建简易的并发聊天室">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# 构建简易的并发聊天室（增加注释信息）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go8_3client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go8_3client.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 1_3 控制台输入，并输出重复次数" />
     <MESSAGE value="# 1_3 新增文件输入，同样输出重复次数，文件为空则标准输入" />
     <MESSAGE value="# 1_4 生成gif动图" />
     <MESSAGE value="# 1_5 向指定url发出请求并获取内容" />
@@ -151,7 +148,8 @@
     <MESSAGE value="# 通过DFS实现拓扑排序" />
     <MESSAGE value="# switch和select的区别以及基础使用" />
     <MESSAGE value="# 构建简易的并发聊天室" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 构建简易的并发聊天室" />
+    <MESSAGE value="# 构建简易的并发聊天室（增加注释信息）" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 构建简易的并发聊天室（增加注释信息）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620338336103">
@@ -199,10 +197,10 @@
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612099361921" />
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.746@0.23.1280.746" timestamp="1613877603621" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1620337854747">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1620338494907">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1620337854747" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1620338494907" />
     <state x="360" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1617071467557" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1618297097403">
       <screen x="0" y="0" width="1280" height="800" />
