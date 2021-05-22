@@ -1,7 +1,7 @@
 package main
 
 func main() {
-
+	maxUncrossedLines(nil, nil)
 }
 
 func maxUncrossedLines(nums1, nums2 []int) int {

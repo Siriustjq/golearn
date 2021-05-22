@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# lc692每日一题">
+    <list default="true" id="a3e02d76-0861-435a-8660-bb1bbd3ce65b" name="Default Changelist" comment="# lc1035每日一题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc1035.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc1035.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 1_5 向指定url发出请求并获取内容" />
     <MESSAGE value="# 1_5练习1.7 将内容读出到os.Stdout，从而可以支持多种输出，通过&gt;baidu.txt写到txt中" />
     <MESSAGE value="# 1_5练习1.8 检查url是否缺少前缀http://，缺少则补全url" />
     <MESSAGE value="# 1_6并发获取多个url 主要是熟悉goruntine以及chan通道" />
@@ -149,7 +149,8 @@
     <MESSAGE value="# 构建简易的并发聊天室（增加注释信息）" />
     <MESSAGE value="# lc1486每日一题" />
     <MESSAGE value="# lc692每日一题" />
-    <option name="LAST_COMMIT_MESSAGE" value="# lc692每日一题" />
+    <MESSAGE value="# lc1035每日一题" />
+    <option name="LAST_COMMIT_MESSAGE" value="# lc1035每日一题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620338336103">
@@ -197,9 +198,10 @@
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612099361921" />
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.746@0.23.1280.746" timestamp="1613877603621" />
-    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2" timestamp="1621513350907">
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2" timestamp="1621603431126">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1621603431126" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1620339818101" />
     <state x="360" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1620398887575" />
     <state x="-1560" y="189" key="Vcs.Push.Dialog.v2/0.23.1280.777/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1621513350907" />
